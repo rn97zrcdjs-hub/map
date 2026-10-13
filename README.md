@@ -61,9 +61,7 @@ The stack an enterprise customer-facing agent runs on, bottom to top:
 
 ## 2. Redrawing `market_notes.md`
 
-## 2. Where I'd redraw `market_notes.md`
-
-Her notes make eleven claims. Her read on the *product* is mostly right: the loop, the BPOs, the hyperscalers. Where the notes go wrong is *who the competition is* and two sales instincts that our own deal history contradicts. Below: what's right, what's half right, what's wrong, and what's missing.
+Read on the *product* is mostly right: the loop, the BPOs, the hyperscalers. Where the notes go wrong is *who the competition is* and two sales instincts that our own deal history contradicts. Below: what's right, what's half right, what's wrong, and what's missing.
 
 ### What's right (keep)
 
