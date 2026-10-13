@@ -4,7 +4,7 @@
 
 - **The market isn't "us vs. agent builders."** Agent builders are the platform we grade. Our real competition is (1) the builder's QA roadmap, (2) the CX QA tool that already owns the QA budget, and (3) KM vendors moving up from below into "answer quality."
 - **We sit in the one seat nobody else can structurally occupy:** independent of the agent, independent of the CMS, and grading live answers *against the source* — then fixing the source.
-- **The wedge:** sell Audit + Evals as one loop, *scoped to the slice of the corpus behind a dated event* (a launch, an incident, a regulator), to a sponsor above CX ops. Our own deal history says the date and the sponsor decide the deal, not the product pitch.
+- **The wedge:** sell Audit + Evals as one loop, *scoped to the slice of the corpus behind a dated event* (a launch, an incident, a regulator), to a sponsor above CX ops. 
 
 ---
 
