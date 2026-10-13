@@ -57,8 +57,6 @@ The stack an enterprise customer-facing agent runs on, bottom to top:
 2. **Grounded** — grades against the source document, not a tone rubric (unlike CX QA).
 3. **Closed loop** — the failed answer points to the article, and we fix the article (unlike LLM eval tools).
 
-Proof it works, from Northline's own data: CONV-0007 is the fare-difference waiver that reached local TV. We graded it ungrounded, traced it to NL-0412 (a superseded article still live), root-caused it to audit finding F-001. Dana said on the call, *"we don't really have a way to go backwards from an answer."* That trace is the product.
-
 ---
 
 ## 2. Redrawing `market_notes.md`
