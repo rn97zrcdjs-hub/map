@@ -61,32 +61,30 @@ The stack an enterprise customer-facing agent runs on, bottom to top:
 
 ## 2. Redrawing `market_notes.md`
 
-What I'd keep, and the third I'd redraw.
+## 2. Where I'd redraw `market_notes.md`
 
-### Keep
+Her notes make eleven claims. Her read on the *product* is mostly right: the loop, the BPOs, the hyperscalers. Where the notes go wrong is *who the competition is* and two sales instincts that our own deal history contradicts. Below: what's right, what's half right, what's wrong, and what's missing.
 
-| Note | Why it holds |
-|---|---|
-| **Draw the loop before you name it** | Right instinct. The loop is the differentiator; "control plane" is a category label nobody asked for. |
-| **BPOs: move fast with them** | Strongest signal in the data. 2/2 BPO deals won at 45 and 51 days vs. ~104-day average for losses. Northline, Orchard, Solace all came through BPOs. |
-| **"Our vendor already does this" is the objection** | Real — it's the primary objection in two closed deals and Dana raised it. |
-| **Hyperscaler answer** | Fine as-is: they won't grade rivals' agents or write into rivals' CMSs. |
+### What's right (keep)
 
-### Redraw
+- **Draw the loop before you name it.** The loop (bad answer → bad article → fix) is the thing nobody else does. "Control plane" means nothing until the buyer has seen it.
+- **Move fast with BPOs.** The strongest signal in the data. Both BPO-introduced deals were won, in 45 and 51 days, against an average of about 104 days for lost deals. Northline, Orchard and Solace all came through BPOs.
+- **"Our vendor already does this" is the objection to solve.** It's the main objection in two closed deals, and Dana raised it on the Northline call.
+- **The hyperscaler answer.** AWS, Google and Microsoft won't grade a rival's bot or write fixes into a rival's article system.
 
-| Note says | I'd redraw it as | Why |
-|---|---|---|
-| **Agent builders are our two biggest competitors** | **They're the host. Their *roadmap* is the competitor.** | The brief itself says we sit beside them. Every Northline failure happened *inside* Decagon — we need Decagon to exist. We lost Kingsway (D-005) not to Decagon-the-product but to a promise of a future release. The fight is "your launch is before their roadmap," not "us vs. them." |
-| **Glean / Writer are direct competitors** | **Glean is adjacent; Writer is an agent builder.** | Test for "direct": could the buyer pick them *instead of* us for the same problem? Northline's bot said something false on TV. Glean would help Marcus's human reps search faster; it wouldn't grade the bot or find NL-0412. Writer would only matter as a replacement for Decagon, and then we'd grade Writer's agent the same way. Same corpus is partly true, but reading articles isn't auditing them. Same VP mostly isn't: Glean sells to CIO/IT, Writer to marketing and business teams. Zero of 16 closed deals name either. Glean's "easier pitch" is a messaging lesson for us, not a competitive threat. |
-| **KB tools are where pressure comes from** | **Right category, wrong reason. They're both our closest competitor *and* our write-back target.** | The pressure isn't budget — it's that Guru and Shelf are moving into answer quality from below. That's also the biggest threat to belief #1 below. |
-| *(missing)* | **Add CX QA tools (MaestroQA, Level AI, Observe.AI).** | They own the line item Vantage Mobile's champion controls ("40% QA coverage by year end"). They now auto-score 100% — the "you only sample 5%" argument is aging. Our answer has to be *what* we score (groundedness against source), not *how much*. |
-| *(missing — it's on the TODO)* | **Add LLM eval tools as a separate layer, relevant only to in-house builds.** | Engineering buyer, assumes code access. Explains the Ardent loss (D-008: built it internally, no CX sponsor). |
-| **Belief: we're the only ones closing the loop** | **True today, eroding.** Shelf publicly claims to find "the exact source of bad answers." | Lean on the part that's still structural: we're independent of the CMS *and* the agent, and we grade the live transcript. |
-| **Belief: buyers don't trust vendor QA** | **Not what decides deals.** | D-001 won through a "vendor QA is sufficient" objection; D-005 lost on it. Difference: D-001 had a launch date and an exec on call 2. Independence matters most to *risk* buyers (CRO, compliance) — sell it there. |
-| **Belief: every enterprise is on a clock** | **The clock is the qualifier, not a universal truth.** | All 8 wins had a committed deadline. 7 of 8 losses didn't (the 8th lost its sponsor). No date → no deal. |
-| **Lead with GEO on every first call** | **GEO is a second-meeting exec hook and an expansion line — never the opener.** | The brief says GEO is a customer-only surface. In the data it shows up as a brand-marketing ask (Calder & Roe, Northline's marketing team), not the CX buyer. Leading with it trains the room to see us as a marketing tool and sends us to a budget with nothing to do with agent reliability. Use it to get to the exec: Northline sits at 19% answer share vs. a competitor's 44%. |
-| **Be flexible on unbundling evals** | **Don't split it. Scope it down.** | Corvin (D-010) asked for evals-only, we said no, they bought nothing — then came back after a second incident and bought full scope at standard terms (D-014). Evals without remediation just produces a list of failures nobody owns. The real answer to "a smaller yes" is D-001: *full loop, scoped to the corpus feeding the launch.* |
+### What's half right (sharpen)
 
+- **"We're the only company closing the loop."** True today, but not for long. Shelf now publicly claims it can find the source of bad AI answers. What's still unique: we're independent of *both* the bot vendor and the article system, and we grade the bot's real conversations.
+- **"KB tools are where our pressure comes from."** Right companies, wrong reason. The threat isn't that Guru and Shelf own the budget. It's that they're adding answer-checking features. They're also where our fixes get saved, so they're as much a partner as a rival.
+- **"Buyers don't trust vendor QA."** Some don't, but that isn't what decides deals. Fairmark (D-001) heard "our vendor's QA is enough" and still bought; Kingsway (D-005) heard the same thing and didn't. The difference was that Fairmark had a launch date and an exec on call 2. Independence matters most to risk buyers (Chief Risk Officers, compliance), so lead with it there.
+
+### What's wrong (redraw)
+
+- **"Agent builders are our two biggest competitors."** They're the platform we grade, not our rival. The brief says we sit beside them, and every Northline failure happened inside Decagon. What actually beats us is their *promise*: Kingsway waited for a feature Decagon said was coming, and Decagon just told Northline the same thing ("Q4"). Our answer is "your deadline comes before their roadmap."
+- **"Glean and Writer are direct competitors."** The test is: would a buyer choose them *instead of* us for the same problem? When Northline's bot said something false on local TV, Glean would have helped human reps search faster, but it wouldn't have graded the bot or found the bad article. Writer builds bots, so it belongs with Decagon and Sierra; if a customer uses it, we grade it too. Neither appears in any of our 16 closed deals.
+- **"Every enterprise is on a clock."** Most aren't, and that's the point. All 8 wins had a committed deadline; 7 of 8 losses didn't. The deadline isn't a universal truth to assume, it's the test for which prospects to chase.
+- **"Lead with GEO on every first call."** GEO demos well, but the brief says it's only for existing customers, and the people who care about it are in marketing, not the customer-experience team that owns the bot. Calder & Roe is all GEO interest and no budget until 2029. Use GEO later, to get an exec's attention ("your competitor shows up in ChatGPT twice as often as you"), and as an add-on sale.
+- **"Be flexible on unbundling evals."** Corvin (D-010) asked to buy only the grading, we said no, and they bought nothing. After a second incident they came back and bought everything at full price (D-014). Grading without fixing just hands the customer a list of problems nobody owns. The better "smaller yes" is what Fairmark bought: the full loop, on just the articles behind their launch.
 ---
 
 ## 3. The wedge
@@ -116,16 +114,6 @@ Best fits in today's pipeline: **Northline (PR-101)**, **Sable Insurance (PR-111
 ### Why this year instead of next
 
 Because the date is theirs, not ours. Their launch, their regulator, their renewal is on the calendar, and the vendor's groundedness feature is on a roadmap. Every week the agent runs without grading is another week of answers nobody checked, and the liability is already priced — Northline paid out on camera.
-
-### How it sounds on a call (Northline, to Marcus Bell)
-
-> "You're going international in November. That's EU261, different baggage rules, different involuntary-change rules — a whole new policy surface on a corpus that hasn't been reviewed since 2019.
->
-> We graded 36 of your conversations from the last six weeks. Six of them were international questions your agent isn't supposed to answer yet. It answered all six. All six were wrong or unsupported — two of them quoted EU compensation amounts out of thin air.
->
-> And the TV story from July? We found the article. It's NL-0412, a schedule-change policy that was replaced in 2024 and is still live and indexed. Your agent pulled it because it's the one that's there.
->
-> Decagon's roadmap says groundedness scoring in Q4. Your launch is November. Even when it ships, it'll tell you a conversation went wrong — it won't tell you which article did it, and it won't fix the article. That's what we do. Let's scope it to the international corpus, so you know it's clean before it goes live, and we'll grade every conversation after."
 
 ### Defending against each alternative
 
