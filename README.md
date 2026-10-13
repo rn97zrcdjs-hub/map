@@ -88,7 +88,7 @@ Read on the *product* is mostly right: the loop, the BPOs, the hyperscalers. Whe
 
 ### In one line
 
-**We sell independent groundedness grading plus remediation of the source — scoped to the knowledge behind your next dated event — to the exec who owns that date, against the alternative of trusting your agent vendor's QA and a 4% tone sample.**
+**We sell independent groundedness grading plus remediation of the source — scoped to the knowledge behind your next dated event — to the exec who owns that date, against the alternative of trusting your agent vendor's QA.
 
 ### Who (qualification, from 16 closed deals)
 
